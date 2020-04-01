@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+  <div class="glavni">
+    <form id="form1">
+        <input class="pd" type="text" id="prvi"><br><br>
+        <input class="pd" type="text" id="drugi"><br><br>
+        
+        <input class="izracunaj" type="button" value="Saberi" onclick="Saberi()">
+        <input class="izracunaj" type="button" value="Oduzmi" onclick="Oduzmi()">
+        <input class="izracunaj" type="button" value="Pomnozi" onclick="Pomnozi()">
+        <input class="izracunaj" type="button" value="Podijeli" onclick="Podijeli()"><br><br>
+        <input class="pd" type="text" id="result">
+    </form>
+  </div>
+    <script>
+   
+      function Saberi() {
+          prvi = parseInt(form1.prvi.value);
+          drugi = parseInt(form1.drugi.value);
+          result = prvi + drugi;
+          form1.result.value=result;
+          prvi = " ";
+          drugi = " ";
+      }
+
+      function Oduzmi() {
+         prvi = parseInt(form1.prvi.value);
+          drugi = parseInt(form1.drugi.value);
+          result = prvi - drugi;
+          form1.result.value=result;
+        
+
+      }
+
+      function Pomnozi() {
+         prvi = parseInt(form1.prvi.value);
+          drugi = parseInt(form1.drugi.value);
+          result = prvi * drugi;
+          form1.result.value=result;
+      }
+
+      function Podijeli() {
+         prvi = parseInt(form1.prvi.value);
+          drugi = parseInt(form1.drugi.value);
+          result = prvi / drugi;
+          form1.result.value=result;
+      }
+    </script>
+</body>
+</html>

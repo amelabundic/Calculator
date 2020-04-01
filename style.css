@@ -1,0 +1,32 @@
+body{
+    background-color: snow;
+    
+}
+.glavni {
+    position: relative;
+    top: 200px;
+    left: 500px;
+    padding-bottom: 60px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 190px;
+    text-align: center;
+    padding: 20px;
+    background-color: skyblue;
+    
+}
+.izracunaj {
+    width: 70px;
+    height: 30px;
+    background-color: lightgrey;
+    color: black;
+}
+.pd {
+    width: 250px;
+    height: 30px;
+    color: black;
+    font-size: 25px;
+    outline: white;
+    border-radius: 5px;
+}
