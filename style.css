@@ -8,12 +8,12 @@ body{
     left: 500px;
     padding-bottom: 60px;
     border: 3px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 350px;
     height: 190px;
     text-align: center;
     padding: 20px;
-    background-color: skyblue;
+    background-color: lightblue;
     
 }
 .izracunaj {
